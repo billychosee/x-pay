@@ -46,8 +46,8 @@ const organizationSchema = {
     }
   ],
   "sameAs": [
-    "https://www.facebook.com/people/Smatpay/61563697798654/",
-    "https://twitter.com/smatpay",
+    "#",
+    "#",
     "https://www.instagram.com/smat_pay",
     "https://www.linkedin.com/company/smatpay-africa/"
   ],

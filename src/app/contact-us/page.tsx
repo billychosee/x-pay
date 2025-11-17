@@ -270,16 +270,16 @@ export default function Contact() {
               <div className="flex gap-4">
                 {[
                   {
-                    href: "https://www.facebook.com/people/X-Pay/61563697798654/",
+                    href: "#",
                     icon: <FaFacebookF className="text-xl" />,
                   },
                   {
-                    href: "https://www.instagram.com/x_pay",
+                    href: "#",
                     icon: <FaInstagram className="text-xl" />,
                   },
                   { href: "#", icon: <FaXTwitter className="text-xl" /> },
                   {
-                    href: "https://www.linkedin.com/company/x-pay-africa/",
+                    href: "#",
                     icon: <FaLinkedin className="text-xl" />,
                   },
                 ].map((item, i) => (

@@ -29,13 +29,13 @@ export default function Footer() {
           <div className="flex space-x-4">
             {/* Updated social media icon backgrounds to gold/yellow */}
             <Link
-              href="https://www.facebook.com/people/Smatpay/61563697798654/?rdid=50bxiSV1lOzF5f2r&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17FR9odziS%2F"
+              href="#"
               className="p-3 text-[#333333] transition duration-300 ease-in-out bg-[#FFC300] rounded-full hover:bg-[#CC9900]"
             >
               <FaFacebookF className="text-xl" />
             </Link>
             <Link
-              href="https://www.instagram.com/smat_pay?igsh=NTc4MTIwNjQ2YQ=="
+              href="#"
               className="p-3 text-[#333333] transition duration-300 ease-in-out bg-[#FFC300] rounded-full hover:bg-[#CC9900]"
             >
               <FaInstagram className="text-xl" />
@@ -47,7 +47,7 @@ export default function Footer() {
               <FaXTwitter className="text-xl" />
             </Link>
             <Link
-              href="https://www.linkedin.com/company/smatpay-africa/"
+              href="#"
               className="p-3 text-[#333333] transition duration-300 ease-in-out bg-[#FFC300] rounded-full hover:bg-[#CC9900]"
             >
               <FaLinkedin className="text-xl" />
