@@ -151,7 +151,7 @@ export default function About() {
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-[size:28px_28px]" />
 
         {/* Hero Section */}
-        <div className="relative w-full h-[500px] md:h-[600px] flex flex-col items-center justify-center text-center text-white overflow-hidden group">
+        <div className="relative w-full h-[500px] md:h-[650px] flex items-center justify-center text-center overflow-hidden group">
           <motion.div
             className="absolute inset-0 z-0"
             initial={{ scale: 1 }}
@@ -166,26 +166,32 @@ export default function About() {
               quality={100}
               priority
             />
-            <div className="absolute inset-0 bg-blue-900 opacity-70" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-black/60" />
           </motion.div>
-          <div className="relative z-10 max-w-2xl px-4">
+          <motion.div
+            className="relative z-10 max-w-4xl px-4 text-white sm:px-6 lg:px-8"
+            initial="hidden"
+            animate="visible"
+          >
             <motion.h1
-              className="mb-4 text-4xl font-bold leading-tight sm:text-4xl md:text-5xl"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8 }}
+              variants={{
+                hidden: { opacity: 0, y: 40 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+              }}
+              className="mb-4 text-4xl font-extrabold leading-tight sm:text-5xl md:text-5xl text-[#D4AF37]"
             >
               About Us
             </motion.h1>
             <motion.p
-              className="text-lg font-light sm:text-xl md:text-base"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
+              variants={{
+                hidden: { opacity: 0, y: 40 },
+                visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } }
+              }}
+              className="text-lg font-light sm:text-xl md:text-base opacity-90"
             >
               Join us in shaping the future of payments in Africa.
             </motion.p>
-          </div>
+          </motion.div>
         </div>
 
         {/* Who We Are Section */}
