@@ -15,7 +15,7 @@ export const NAV_LINKS: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about-us" },
   { label: "Features", href: "/features" },
-  { label: "Documentation", href: "https://doc.smatpay.africa/" },
+  { label: "Documentation", href: "https://docs.x-pay.co.za/" },
   { label: "Resources" },
   { label: "Contact Us", href: "/contact-us" },
 ];

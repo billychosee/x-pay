@@ -97,7 +97,7 @@ export const DeskNav: React.FC<DeskNavProps> = ({
         {/* Right: CTAs */}
         <div className="flex items-center gap-3">
           <Link
-            href="https://merchant.smatpay.africa/sign-up"
+            href="https://merchant-dev.x-pay.co.za"
             className="rounded-full border border-[#CC9900] px-5 py-2 text-sm font-semibold text-[#CC9900] transition hover:bg-[#FFC300] hover:text-[#333333]"
           >
             Sign in

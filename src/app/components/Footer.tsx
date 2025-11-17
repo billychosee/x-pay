@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <Link href="/">
               <Image
-                src={"./X-Pay-Logo.png"}
+                src={"./X-Pay-light.png"}
                 // Updated alt text
                 alt={"X Pay White Logo"}
                 width={150}
@@ -80,7 +80,7 @@ export default function Footer() {
               <li className="mb-2">
                 <Link
                   // Updated domain to xpay.africa
-                  href="https://doc.xpay.africa/"
+                  href="https://docs.x-pay.co.za/"
                   className="text-sm text-gray-300 transition duration-300 ease-in-out hover:text-white"
                 >
                   Documentation

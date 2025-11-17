@@ -97,7 +97,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
     Sign in
   </Link>
   <Link
-    href="https://merchant.smatpay.africa/sign-up"
+    href="https://merchant-dev.x-pay.co.za"
     className="px-4 py-2 text-sm font-semibold text-center text-[#333333] rounded-full shadow-md bg-[#FFC300]"
     onClick={onClose}
   >

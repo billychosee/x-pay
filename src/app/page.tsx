@@ -303,7 +303,7 @@ export default function Home() {
                     variants={pulse}
                   >
                     <Link
-                      href="https://merchant.smatpay.africa/sign-up"
+                      href="https://merchant-dev.x-pay.co.za"
                       className="inline-flex items-center justify-center rounded-full bg-[#FFC300] px-6 sm:px-8 py-3 text-sm sm:text-base font-bold text-[#333333] shadow-lg shadow-[#000000]/20 transition hover:scale-[1.02] hover:brightness-110 xl:text-sm lg:text:xs"
                     >
                       Register
@@ -565,7 +565,7 @@ export default function Home() {
         variants={pulse}
       >
         <Link
-          href="https://merchant.smatpay.africa/sign-up"
+          href="https://merchant-dev.x-pay.co.za"
           className="block w-full text-center sm:inline-flex sm:w-auto sm:text-left rounded-full bg-white px-6 py-3 mb-5 text-sm font-semibold text-[#CC9900] ring-1 ring-[#CC9900] transition hover:bg-[#FFC300] hover:text-[#333333]"
         >
           Create an Account Now
@@ -731,7 +731,7 @@ export default function Home() {
       {/* The new "Get Started" button has been added here */}
       <motion.div variants={fadeUp}>
         <Link
-          href="https://merchant.smatpay.africa/sign-up"
+          href="https://merchant-dev.x-pay.co.za"
           className="mt-8 inline-flex rounded-full bg-[#FFC300] px-8 py-3 text-sm font-bold text-[#333333] shadow-lg ring-1 ring-[#CC9900]/40 transition hover:bg-[#CC9900]"
         >
           Get Started

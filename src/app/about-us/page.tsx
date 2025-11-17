@@ -352,7 +352,7 @@ export default function About() {
                 Experience the SmatPay difference for yourself!
               </h3>
               <Link
-                href="https://merchant.smatpay.africa/sign-up"
+                href="https://merchant-dev.x-pay.co.za"
                 className="mt-8 inline-flex rounded-full bg-white px-8 py-3 text-sm font-bold text-[#8141D5] shadow-lg ring-1 ring-white/40 transition hover:bg-[#f3f3f3]"
               >
                 Get Started →
