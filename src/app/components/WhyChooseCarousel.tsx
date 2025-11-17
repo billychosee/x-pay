@@ -68,7 +68,7 @@ export default function WhyChooseCarousel({ interval = 5000 }: CarouselProps) {
         `}
       >
         <div className="flex items-center justify-center mx-auto mb-4 rounded-full shadow-inner w-14 h-14 bg-white/40">
-          <item.icon className="w-7 h-7 text-[#2f1991]" />
+          <item.icon className="w-7 h-7 text-[#CC9900]" />
         </div>
         <h4 className="text-lg font-semibold text-[#1a133d]">{item.title}</h4>
         <p className="mt-2 text-sm text-gray-700">{item.description}</p>
@@ -79,19 +79,19 @@ export default function WhyChooseCarousel({ interval = 5000 }: CarouselProps) {
   {/* Previous / Next buttons */}
   <button
     onClick={handlePrev}
-    className="absolute left-2 top-1/2 -translate-y-1/2 p-3 text-white rounded-full bg-[#2f1991]/70 hover:bg-[#8141D5]/80 shadow-lg z-20 sm:left-0"
+    className="absolute left-2 top-1/2 -translate-y-1/2 p-3 text-white rounded-full bg-[#CC9900]/70 hover:bg-[#FFC300]/80 shadow-lg z-20 sm:left-0"
   >
     <FaChevronLeft />
   </button>
   <button
     onClick={handleNext}
-    className="absolute right-2 top-1/2 -translate-y-1/2 p-3 text-white rounded-full bg-[#2f1991]/70 hover:bg-[#8141D5]/80 shadow-lg z-20 sm:right-0"
+    className="absolute right-2 top-1/2 -translate-y-1/2 p-3 text-white rounded-full bg-[#CC9900]/70 hover:bg-[#FFC300]/80 shadow-lg z-20 sm:right-0"
   >
     <FaChevronRight />
   </button>
 
   {/* Gradient glassy background */}
-  <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,rgba(129,65,213,0.15),transparent_70%)]" />
+  <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,rgba(255,195,0,0.15),transparent_70%)]" />
 </div>
 
   );

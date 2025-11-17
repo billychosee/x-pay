@@ -25,7 +25,7 @@ const Testimonials = ({ title, subtitle, testimonials }: TestimonialsProps) => {
         <h3 className="text-base font-semibold tracking-wider text-gray-600 uppercase">
           {title}
         </h3>
-        <h2 className="mt-2 text-4xl font-extrabold text-[#2f1991]">
+        <h2 className="mt-2 text-4xl font-extrabold text-[#CC9900]">
           {subtitle}
         </h2>
         <p className="mt-4 text-lg text-gray-500">
