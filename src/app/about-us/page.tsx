@@ -13,7 +13,6 @@ const patnersLogos = [
   { name: "SmatQr", logo: "/smat_qr_logo.svg" },
   { name: "SmatProp", logo: "/smatprop_logo.svg" },
   { name: "AWS", logo: "/aws_logo.png" },
-  { name: "Njere", logo: "/njere_logo.svg" },
 ];
 
 // Schema.org structured data
@@ -109,7 +108,7 @@ const Counter: React.FC<CounterProps> = ({ from, to, label }) => {
 
   return (
     <div ref={ref}>
-      <span className="block text-5xl font-extrabold text-[#2f1991] mb-2">{count}{label.includes("Served") ? "+" : ""}</span>
+      <span className="block text-5xl font-extrabold text-[#CC9900] mb-2">{count}{label.includes("Served") ? "+" : ""}</span>
       <p className="text-xl text-gray-600">{label}</p>
     </div>
   );
@@ -148,7 +147,7 @@ export default function About() {
 
       <main className="relative text-black bg-white">
         {/* Decorative background */}
-        <div className="pointer-events-none absolute inset-0 -z-10 [background:radial-gradient(1200px_600px_at_50%_-200px,rgba(129,65,213,0.35),transparent_70%),radial-gradient(1200px_600px_at_50%_120%,rgba(47,25,145,0.25),transparent_70%)]" />
+        <div className="pointer-events-none absolute inset-0 -z-10 [background:radial-gradient(1200px_600px_at_50%_-200px,rgba(255,195,0,0.35),transparent_70%),radial-gradient(1200px_600px_at_50%_120%,rgba(204,153,0,0.25),transparent_70%)]" />
         <div className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(to_right,rgba(0,0,0,0.04)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.04)_1px,transparent_1px)] bg-[size:28px_28px]" />
 
         {/* Hero Section */}
@@ -194,7 +193,7 @@ export default function About() {
           <div className="container grid items-center gap-16 px-6 mx-auto max-w-7xl lg:grid-cols-2">
             {/* Text */}
             <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }}>
-              <motion.h2 variants={fadeUp} className="mb-6 text-3xl font-bold text-[#2f1991] md:text-2xl">Who We Are</motion.h2>
+              <motion.h2 variants={fadeUp} className="mb-6 text-3xl font-bold text-[#CC9900] md:text-2xl">Who We Are</motion.h2>
               <motion.p variants={fadeUp} className="mb-4 text-gray-700">
                 SmatPay is more than just a payment gateway; we are the secure bridge between merchants and customers, redefining digital commerce in South Africa. As a proud product of the <strong>Smatech Group</strong>, we are committed to building a robust and flexible payment ecosystem designed for the future of Africa's digital economy.
               </motion.p>
@@ -211,8 +210,8 @@ export default function About() {
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.8, ease: "easeInOut" }}
             >
-              <div className="absolute bg-[#e0b0ff] rounded-full w-60 h-60 md:w-72 md:h-72 top-4 left-4 md:top-8 md:left-8 opacity-70"></div>
-              <div className="absolute bg-[#9966ff] rounded-full w-80 h-80 md:w-96 md:h-96 bottom-4 right-4 md:bottom-8 md:right-8 opacity-50"></div>
+              <div className="absolute bg-[#FFC300] rounded-full w-60 h-60 md:w-72 md:h-72 top-4 left-4 md:top-8 md:left-8 opacity-70"></div>
+              <div className="absolute bg-[#CC9900] rounded-full w-80 h-80 md:w-96 md:h-96 bottom-4 right-4 md:bottom-8 md:right-8 opacity-50"></div>
               <div className="relative z-10">
                 <Image
                   src="/man-on-laptop.jpg"
@@ -227,7 +226,7 @@ export default function About() {
         </section>
 
         {/* Our Core Values Section */}
-        <section className="py-20 bg-purple-50">
+        <section className="py-20 bg-[#FFC300]/10">
           <div className="container px-6 mx-auto text-center max-w-7xl">
             <h2 className="text-3xl font-bold text-[#1a202c] mb-12 md:text-4xl">Our Core Values</h2>
             <motion.div
@@ -248,7 +247,7 @@ export default function About() {
                   className="flex flex-col items-center p-8 transition bg-white shadow-md rounded-2xl hover:shadow-xl"
                   variants={fadeUp}
                 >
-                  <div className="mb-4 text-5xl text-[#2f1991]">
+                  <div className="mb-4 text-5xl text-[#CC9900]">
                     <value.icon />
                   </div>
                   <h3 className="mb-2 text-xl font-semibold text-[#1a202c]">{value.title}</h3>
@@ -261,7 +260,7 @@ export default function About() {
 
         <section className="py-20 bg-white">
   <div className="container px-6 mx-auto max-w-7xl">
-    <h2 className="text-3xl font-bold text-center text-[#2f1991] mb-12 md:text-4xl">What We Offer</h2>
+    <h2 className="text-3xl font-bold text-center text-[#CC9900] mb-12 md:text-4xl">What We Offer</h2>
     <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
       {services.map((service, idx) => {
         const [showOverlay, setShowOverlay] = useState(false);
@@ -303,9 +302,9 @@ export default function About() {
 
 
         {/* Stats Section */}
-        <section className="py-20 bg-purple-50">
+        <section className="py-20 bg-[#FFC300]/10">
           <div className="container px-6 mx-auto text-center max-w-7xl">
-            <h2 className="mb-12 text-3xl font-bold text-[#2f1991] md:text-4xl">We Power Success</h2>
+            <h2 className="mb-12 text-3xl font-bold text-[#CC9900] md:text-4xl">We Power Success</h2>
             <motion.div
               className="grid grid-cols-1 gap-8 md:grid-cols-3"
               variants={stagger}
@@ -323,11 +322,11 @@ export default function About() {
         {/* Partners & Clients Section */}
         <section className="py-20 bg-white">
           <div className="container px-6 mx-auto text-center max-w-7xl">
-            <h2 className="text-2xl font-bold text-[#2f1991] sm:text-3xl">Our Trusted Partners</h2>
+            <h2 className="text-2xl font-bold text-[#CC9900] sm:text-3xl">Our Trusted Partners</h2>
             <p className="max-w-3xl mx-auto mt-3 text-gray-600">
               Trusted by industry leaders worldwide, SmatPay partners with the world's leading financial institutions and technology providers to deliver seamless payment experiences.
             </p>
-            <div className="mt-10 overflow-hidden border border-gray-200 rounded-2xl bg-purple-50">
+            <div className="mt-10 overflow-hidden border border-gray-200 rounded-2xl bg-[#FFC300]/10">
               <div className="flex animate-[marquee_30s_linear_infinite] gap-12 p-6 [--gap:3rem] hover:[animation-play-state:paused]">
                 {[...patnersLogos, ...patnersLogos].map((item, idx) => (
                   <div key={`${item.name}-${idx}`} className="transition shrink-0">
@@ -345,7 +344,7 @@ export default function About() {
             className="relative mx-6 overflow-hidden text-white bg-center bg-cover shadow-lg max-w-7xl rounded-3xl sm:mx-auto"
             style={{ backgroundImage: "url('/holding_payment_card.jpg')" }}
           >
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#8141D5]/80 to-[#2f1991]/70" />
+            <div className="absolute inset-0 bg-gradient-to-tr from-[#FFC300]/80 to-[#CC9900]/70" />
             <div className="relative z-10 max-w-4xl px-6 py-20 mx-auto text-center">
               <p className="text-base font-semibold">Ready to get started?</p>
               <h3 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">
@@ -353,7 +352,7 @@ export default function About() {
               </h3>
               <Link
                 href="https://merchant-dev.x-pay.co.za"
-                className="mt-8 inline-flex rounded-full bg-white px-8 py-3 text-sm font-bold text-[#8141D5] shadow-lg ring-1 ring-white/40 transition hover:bg-[#f3f3f3]"
+                className="mt-8 inline-flex rounded-full bg-white px-8 py-3 text-sm font-bold text-[#CC9900] shadow-lg ring-1 ring-white/40 transition hover:bg-[#f3f3f3]"
               >
                 Get Started →
               </Link>
