@@ -6,7 +6,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState, useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
-import Testimonials from "./components/Testimonials";
 import Footer from "@/app/components/Footer";
 import WhyChooseCarousel from "@/app/components/WhyChooseCarousel";
 import FeaturesSection from "./components/FeaturesSection";
@@ -162,27 +161,6 @@ const benefitsOfSmatpayItems = [
     description:
       "Seamless integration with online stores allows for quick and easy checkouts, reducing cart abandonment rates",
     icon: FaMobileAlt,
-  },
-];
-
-const testimonialData = [
-  {
-    name: "Tatenda Moyo",
-    title: "CEO",
-    quote:
-      "Fast, secure, and hassle-free payments with X-Pay. It has made learning accessible and convenient",
-  },
-  {
-    name: "Ruth Madzikanda",
-    title: "CEO",
-    quote:
-      "Our school's transition to X-Pay has been a game-changer. Fee collection is now a breeze, and we have more time to focus on what truly matters: our students.",
-  },
-  {
-    name: "Anesu Mbano",
-    title: "Headstore Manager",
-    quote:
-      "We were looking for a payment gateway that could keep up with the demands of our growing access control business. X-Pay exceeded our expectations.",
   },
 ];
 
@@ -669,13 +647,6 @@ export default function Home() {
 
         {/* BENEFITS */}
         <BenefitsSection />
-
-        {/* TESTIMONIALS */}
-        <section id="testimonials" className="py-10">
-          <div className="container px-6 mx-auto max-w-7xl">
-            <Testimonials title="Testimonials" subtitle="What they say" testimonials={testimonialData} />
-          </div>
-        </section>
 
         {/* CTA BANNER */}
         <section className="pb-16">
