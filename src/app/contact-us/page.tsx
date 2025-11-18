@@ -19,10 +19,10 @@ import ContactForm from "./ContactForm";
 const contactSchema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
-  url: "https://xpay.co.za/contact",
-  name: "Contact X Pay",
+  url: "https://x-pay.co.za/contact",
+  name: "Contact X-Pay",
   description:
-    "Get in touch with the X Pay team. Contact us for customer support, sales inquiries, or partnership opportunities.",
+    "Get in touch with the X-Pay team. Contact us for customer support, sales inquiries, or partnership opportunities.",
   contactPoint: [
     {
       "@type": "ContactPoint",
@@ -239,24 +239,24 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold text-gray-700">Email Us</h3>
                 <p className="text-sm text-gray-600">
-                  <a href="mailto:info@xpay.africa" className="hover:underline">
-                    info@xpay.africa
+                  <a href="mailto:info@x-pay.co.za" className="hover:underline">
+                    info@x-pay.co.za
                   </a>
                 </p>
                 <p className="text-sm text-gray-600">
                   <a
-                    href="mailto:support@xpay.africa"
+                    href="mailto:support@x-pay.co.za"
                     className="hover:underline"
                   >
-                    support@xpay.africa
+                    support@x-pay.co.za
                   </a>
                 </p>
                 <p className="text-sm text-gray-600">
                   <a
-                    href="mailto:sales@xpay.africa"
+                    href="mailto:sales@x-pay.co.za"
                     className="hover:underline"
                   >
-                    sales@xpay.africa
+                    sales@x-pay.co.za
                   </a>
                 </p>
               </div>

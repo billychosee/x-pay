@@ -19,7 +19,7 @@ export default function Footer() {
               <Image
                 src={"./X-Pay-light.png"}
                 // Updated alt text
-                alt={"X Pay White Logo"}
+                alt={"X-Pay White Logo"}
                 width={150}
                 height={50}
                 className="w-32 h-auto"
@@ -79,7 +79,7 @@ export default function Footer() {
             <ul>
               <li className="mb-2">
                 <Link
-                  // Updated domain to xpay.africa
+                  // Updated domain to x-pay.africa
                   href="https://docs.x-pay.co.za/"
                   className="text-sm text-gray-300 transition duration-300 ease-in-out hover:text-white"
                 >
@@ -96,17 +96,8 @@ export default function Footer() {
               </li>
               <li className="mb-2">
                 <Link
-                  // Updated domain to xpay.africa
-                  href="https://crm.xpay.africa/knowledge-base"
-                  className="text-sm text-gray-300 transition duration-300 ease-in-out hover:text-white"
-                >
-                  Knowledge Base
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  // Updated domain to xpay.africa
-                  href="https://merchant.xpay.africa/sign-up"
+                  // Updated domain to x-pay.africa
+                  href="https://merchant.x-pay.africa/sign-up"
                   className="text-sm text-gray-300 transition duration-300 ease-in-out hover:text-white"
                 >
                   Register
@@ -134,18 +125,18 @@ export default function Footer() {
               <p className="text-sm font-medium text-white">Email</p>
               <ul className="ml-2 space-y-1 text-sm text-gray-300">
                 {/* Updated email addresses */}
-                <li><a href="mailto:info@xpay.africa" className="hover:underline">info@xpay.africa</a></li>
-                <li><a href="mailto:support@xpay.africa" className="hover:underline">support@xpay.africa</a></li>
-                <li><a href="mailto:sales@xpay.africa" className="hover:underline">sales@xpay.africa</a></li>
+                <li><a href="mailto:info@x-pay.co.za" className="hover:underline">info@x-pay.co.za</a></li>
+                <li><a href="mailto:support@x-pay.co.za" className="hover:underline">support@x-pay.co.za</a></li>
+                <li><a href="mailto:sales@x-pay.co.za" className="hover:underline">sales@x-pay.co.za</a></li>
               </ul>
             </div>
           </div>
 
 
-          {/* About X Pay */}
+          {/* About X-Pay */}
           <div>
             {/* Updated heading */}
-            <h3 className="mb-4 text-lg font-semibold">About X Pay</h3>
+            <h3 className="mb-4 text-lg font-semibold">About X-Pay</h3>
             <p className="text-sm text-gray-300">
               Secure and Convenient Payments. Your trusted partner for online
               transactions.
@@ -157,8 +148,15 @@ export default function Footer() {
         {/* Updated border color for contrast on the new gradient */}
         <div className="flex flex-col items-start justify-between pt-8 text-sm text-white border-t border-gray-600 md:flex-row md:items-center">
           <p className="mb-4 md:mb-0">
-            Copyright © {currentYear}, All rights reserved. Powered by Smatech
-            Group
+            Copyright © {currentYear}, All rights reserved. Powered by{" "}
+            <a
+              href="https://www.smatechgroup.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold text-[#FFC300] hover:text-[#CC9900] transition duration-300"
+            >
+              Smatech Group
+            </a>
           </p>
           <div className="flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-6">
             <Link href="#" className="transition duration-300 ease-in-out hover:text-white">

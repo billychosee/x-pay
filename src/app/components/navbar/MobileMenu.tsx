@@ -59,13 +59,6 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
                       >
                         Integrations
                       </Link>
-                      <Link
-                        href="https://crm.smatpay.africa/knowledge-base"
-                        className="text-sm text-gray-700 hover:text-[#FFC300]"
-                        onClick={onClose}
-                      >
-                        Knowledge Base
-                      </Link>
                       <a
                         href="/resources/faqs"
                         className="text-sm text-gray-700 hover:text-[#FFC300]"

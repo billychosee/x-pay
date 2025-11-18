@@ -18,23 +18,23 @@ const faqSchema = {
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is X Pay?",
+      "name": "What is X-Pay?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "X Pay is a cutting-edge payment gateway designed to facilitate secure and seamless digital transactions for businesses and individuals in South Africa."
+        "text": "X-Pay is a cutting-edge payment gateway designed to facilitate secure and seamless digital transactions for businesses and individuals in South Africa."
       }
     },
     {
       "@type": "Question",
-      "name": "How does X Pay work for merchants?",
+      "name": "How does X-Pay work for merchants?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Merchants can integrate X Pay into their e-commerce platforms. Our platform provides a simple API that allows businesses to accept various payment methods, including Google Pay, Apple Pay, Payflex, Visa, and MasterCard, all through a single, secure gateway."
+        "text": "Merchants can integrate X-Pay into their e-commerce platforms. Our platform provides a simple API that allows businesses to accept various payment methods, including Google Pay, Apple Pay, Payflex, Visa, and MasterCard, all through a single, secure gateway."
       }
     },
     {
       "@type": "Question",
-      "name": "What payment methods does X Pay support?",
+      "name": "What payment methods does X-Pay support?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "We support a wide range of payment methods tailored to the South African market, including Google Pay, Apple Pay, Payflex, Visa, MasterCard, S Code, American Express, MobiCred, SnapScan, and Zapper. We are continuously expanding our supported payment options."
@@ -42,18 +42,18 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      "name": "Is X Pay secure?",
+      "name": "Is X-Pay secure?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, security is our top priority. X Pay uses advanced encryption technologies and complies with global security standards to ensure that all transactions and user data are protected from fraud and unauthorized access."
+        "text": "Yes, security is our top priority. X-Pay uses advanced encryption technologies and complies with global security standards to ensure that all transactions and user data are protected from fraud and unauthorized access."
       }
     },
     {
       "@type": "Question",
-      "name": "How can I get started with X Pay?",
+      "name": "How can I get started with X-Pay?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "To get started, simply visit our website and sign up for a merchant or individual account. Our team will guide you through the integration process to get your business up and running with X Pay."
+        "text": "To get started, simply visit our website and sign up for a merchant or individual account. Our team will guide you through the integration process to get your business up and running with X-Pay."
       }
     }
   ]
@@ -66,12 +66,12 @@ const faqCategories = [
     icon: <MdOutlinePayments />,
     faqs: [
       {
-        question: "What payment methods does X Pay support?",
+        question: "What payment methods does X-Pay support?",
         answer: "We support a wide range of payment methods tailored to the South African market, including Google Pay, Apple Pay, Payflex, Visa, and MasterCard. We are continuously expanding our supported payment options."
       },
       {
-        question: "How do I make a payment using X Pay?",
-        answer: "As a customer, you simply select X Pay at checkout. You will be redirected to our secure portal to complete your transaction using your preferred payment method."
+        question: "How do I make a payment using X-Pay?",
+        answer: "As a customer, you simply select X-Pay at checkout. You will be redirected to our secure portal to complete your transaction using your preferred payment method."
       },
       {
         question: "How are payments processed?",
@@ -79,7 +79,7 @@ const faqCategories = [
       },
       {
         question: "Can I get a refund?",
-        answer: "Refund policies are determined by the merchant. If you require a refund, please contact the business you purchased from directly. They will initiate the process through their X Pay dashboard."
+        answer: "Refund policies are determined by the merchant. If you require a refund, please contact the business you purchased from directly. They will initiate the process through their X-Pay dashboard."
       },
     ],
   },
@@ -88,20 +88,20 @@ const faqCategories = [
     icon: <LuPackage />,
     faqs: [
       {
-        question: "What is X Pay?",
-        answer: "X Pay is a cutting-edge payment gateway designed to facilitate secure and seamless digital transactions for businesses and individuals in South Africa."
+        question: "What is X-Pay?",
+        answer: "X-Pay is a cutting-edge payment gateway designed to facilitate secure and seamless digital transactions for businesses and individuals in South Africa."
       },
       {
-        question: "How does X Pay work for merchants?",
-        answer: "Merchants can integrate X Pay into their e-commerce platforms. Our platform provides a simple API that allows businesses to accept various payment methods, including EFT, SnapScan, Ozow, Visa, and MasterCard, all through a single, secure gateway."
+        question: "How does X-Pay work for merchants?",
+        answer: "Merchants can integrate X-Pay into their e-commerce platforms. Our platform provides a simple API that allows businesses to accept various payment methods, including EFT, SnapScan, Ozow, Visa, and MasterCard, all through a single, secure gateway."
       },
       {
-        question: "What features does the X Pay dashboard have?",
+        question: "What features does the X-Pay dashboard have?",
         answer: "Our merchant dashboard provides a comprehensive view of all your transactions, allowing you to track sales, manage refunds, view analytics, and export reports to help with your financial reconciliation."
       },
       {
-        question: "Is X Pay suitable for small businesses?",
-        answer: "Yes, X Pay is designed for businesses of all sizes, from small startups to large enterprises. Our flexible pricing models and easy-to-use platform make it accessible to everyone."
+        question: "Is X-Pay suitable for small businesses?",
+        answer: "Yes, X-Pay is designed for businesses of all sizes, from small startups to large enterprises. Our flexible pricing models and easy-to-use platform make it accessible to everyone."
       },
     ],
   },
@@ -110,7 +110,7 @@ const faqCategories = [
     icon: <TbMoneybag />,
     faqs: [
       {
-        question: "What are the fees for using X Pay?",
+        question: "What are the fees for using X-Pay?",
         answer: "Our fee structure is competitive and transparent. Fees vary depending on the transaction type and volume. Please refer to our pricing page for detailed information or contact our sales team for a custom quote."
       },
       {
@@ -132,11 +132,11 @@ const faqCategories = [
     icon: <MdOutlineSecurity />,
     faqs: [
       {
-        question: "Is X Pay secure?",
-        answer: "Yes, security is our top priority. X Pay uses advanced encryption technologies and complies with global security standards to ensure that all transactions and user data are protected from fraud and unauthorized access."
+        question: "Is X-Pay secure?",
+        answer: "Yes, security is our top priority. X-Pay uses advanced encryption technologies and complies with global security standards to ensure that all transactions and user data are protected from fraud and unauthorized access."
       },
       {
-        question: "How does X Pay protect my data?",
+        question: "How does X-Pay protect my data?",
         answer: "We employ industry-leading security protocols, including PCI DSS compliance, tokenization, and multi-factor authentication, to protect sensitive financial and personal data from unauthorized access."
       },
       {
@@ -154,8 +154,8 @@ const faqCategories = [
     icon: <MdAccountCircle />,
     faqs: [
       {
-        question: "How can I get started with X Pay?",
-        answer: "To get started, simply visit our website and sign up for a merchant or individual account. Our team will guide you through the integration process to get your business up and running with X Pay."
+        question: "How can I get started with X-Pay?",
+        answer: "To get started, simply visit our website and sign up for a merchant or individual account. Our team will guide you through the integration process to get your business up and running with X-Pay."
       },
       {
         question: "How do I reset my password?",
@@ -185,7 +185,7 @@ const faqCategories = [
       },
       {
         question: "How do I update my business information?",
-        answer: "You can update most of your business information directly from your X Pay dashboard. For certain sensitive changes, such as banking details, you may need to submit a formal request to our support team for verification."
+        answer: "You can update most of your business information directly from your X-Pay dashboard. For certain sensitive changes, such as banking details, you may need to submit a formal request to our support team for verification."
       },
       {
         question: "Do you have a terms of service document?",
@@ -252,8 +252,8 @@ export default function FAQ() {
   return (
     <>
       <Head>
-        <title>Frequently Asked Questions | X Pay</title>
-        <meta name="description" content="Find answers to common questions about X Pay, our services, security, and how to get started with our digital payment solutions in South Africa." />
+        <title>Frequently Asked Questions | X-Pay</title>
+        <meta name="description" content="Find answers to common questions about X-Pay, our services, security, and how to get started with our digital payment solutions in South Africa." />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}

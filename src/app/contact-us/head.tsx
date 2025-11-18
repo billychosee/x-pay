@@ -2,19 +2,19 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact Us | SmatPay - Get in Touch with Our Team",
-  description: "Get in touch with the SmatPay team for customer support, sales inquiries, technical assistance, or partnership opportunities in Africa.",
+  title: "Contact Us | X-Pay - Get in Touch with Our Team",
+  description: "Get in touch with the X-Pay team for customer support, sales inquiries, technical assistance, or partnership opportunities in South Africa.",
   openGraph: {
-    title: "Contact SmatPay: Customer Support & Sales",
-    description: "Reach out to SmatPay's dedicated team for any questions about our payment solutions, support, or partnerships.",
-    url: "https://smatpay.co.za/contact-us",
-    images: ["https://smatpay.co.za/smatpay_logo.png"],
+    title: "Contact X-Pay: Customer Support & Sales",
+    description: "Reach out to X-Pay's dedicated team for any questions about our payment solutions, support, or partnerships.",
+    url: "https://x-pay.co.za/contact-us",
+    images: ["https://x-pay.co.za/X-Pay-Logo.png"],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@smatpay",
-    title: "Contact SmatPay",
-    description: "Reach out to SmatPay's dedicated team for any questions about our payment solutions, support, or partnerships.",
-    images: ["https://smatpay.co.za/smatpay_logo.png"],
+    site: "@x_pay",
+    title: "Contact X-Pay",
+    description: "Reach out to X-Pay's dedicated team for any questions about our payment solutions, support, or partnerships.",
+    images: ["https://x-pay.co.za/X-Pay-Logo.png"],
   },
 };

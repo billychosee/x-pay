@@ -1,7 +1,7 @@
 // src/components/navbar/config.ts
 
 export const BRAND = {
-  name: "X Pay",
+  name: "X-Pay",
   logo: "/X-Pay-Logo.png", // adjust to your actual path or import
 };
 

@@ -51,7 +51,7 @@ const coreFeatures: Feature[] = [
     icon: FaCreditCard,
     image: "/multichannel-payments.jpg",
     longDescription:
-      "X Pay empowers you to accept a wide range of payment methods, from traditional credit/debit cards to modern options like SnapScan, Ozow, and QR code payments. This flexibility ensures your customers can pay however they prefer, increasing your conversion rates.",
+      "X-Pay empowers you to accept a wide range of payment methods, from traditional credit/debit cards to modern options like SnapScan, Ozow, and QR code payments. This flexibility ensures your customers can pay however they prefer, increasing your conversion rates.",
   },
   {
     title: "Recurring Billing",
@@ -68,7 +68,7 @@ const coreFeatures: Feature[] = [
     icon: FaGlobe,
     image: "/secure-tokenization.jpg",
     longDescription:
-      "Protect your customers and your business with advanced tokenization. Instead of storing sensitive card data, X Pay replaces it with a unique token. This enables secure one-click checkouts and subscriptions without compromising security or PCI compliance.",
+      "Protect your customers and your business with advanced tokenization. Instead of storing sensitive card data, X-Pay replaces it with a unique token. This enables secure one-click checkouts and subscriptions without compromising security or PCI compliance.",
   },
   {
     title: "Fiscalized Invoicing",
@@ -104,7 +104,7 @@ const coreFeatures: Feature[] = [
     icon: FaHandHoldingUsd,
     image: "/realtime-refunds.jpg",
     longDescription:
-      "Handle refunds and disputes with speed and transparency. Our real-time refund feature allows you to process returns directly from your X Pay dashboard, improving customer satisfaction and streamlining your operations.",
+      "Handle refunds and disputes with speed and transparency. Our real-time refund feature allows you to process returns directly from your X-Pay dashboard, improving customer satisfaction and streamlining your operations.",
   },
   {
     title: "Multicurrency Support",
@@ -113,7 +113,7 @@ const coreFeatures: Feature[] = [
     icon: FaHandshake,
     image: "/multicurrency-support.jpg",
     longDescription:
-      "Expand your business globally with multicurrency support. X Pay allows you to accept and process payments in South African Rand, as well as various foreign currencies, providing a smooth and localized checkout experience for your international customers.",
+      "Expand your business globally with multicurrency support. X-Pay allows you to accept and process payments in South African Rand, as well as various foreign currencies, providing a smooth and localized checkout experience for your international customers.",
   },
 ];
 
@@ -121,7 +121,7 @@ const products = [
   {
     title: "E-commerce & Web Integration",
     description:
-      "Connect X Pay to your online store with our easy plugins and APIs for a seamless checkout experience.",
+      "Connect X-Pay to your online store with our easy plugins and APIs for a seamless checkout experience.",
     image: "/ecommerce.jpg",
     features: [
       "WooCommerce & Shopify Plugins",
@@ -133,7 +133,7 @@ const products = [
     title: "Smart POS Terminals",
     description:
       "Accept in-person payments with our sleek, fiscalization-ready POS devices that support cards, mobile money, and QR codes.",
-    image: "/xpay-pos.png",
+    image: "/smatpay-pos.png",
     features: [
       "Accepts All Payment Methods",
       "Fiscalization Ready",
@@ -182,10 +182,10 @@ export default function FeaturesPage() {
   return (
     <>
       <Head>
-        <title>X Pay Features: Payments, Subscriptions & More</title>
+        <title>X-Pay Features: Payments, Subscriptions & More</title>
         <meta
           name="description"
-          content="Explore X Pay's powerful features, including multiple payment options, recurring billing, smart POS terminals, and developer tools to grow your business in Africa."
+          content="Explore X-Pay's powerful features, including multiple payment options, recurring billing, smart POS terminals, and developer tools to grow your business in Africa."
         />
       </Head>
 
@@ -220,7 +220,7 @@ export default function FeaturesPage() {
               variants={fadeInUp}
               className="text-lg font-light sm:text-xl md:text-base opacity-90"
             >
-              Discover the full suite of tools that make X Pay the ultimate
+              Discover the full suite of tools that make X-Pay the ultimate
               payment gateway for businesses in Africa.
             </motion.p>
           </motion.div>
@@ -436,7 +436,7 @@ export default function FeaturesPage() {
                 Ready to Simplify Your Payments?
               </h2>
               <p className="mb-8 text-lg text-white opacity-90">
-                Join thousands of businesses already growing with X Pay.
+                Join thousands of businesses already growing with X-Pay.
               </p>
               <Link href="/contact-us" className="inline-block">
                 <motion.button

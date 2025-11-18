@@ -8,7 +8,7 @@ import {
   FaMobileAlt,
 } from "react-icons/fa";
 
-const benefitsOfXpayItems = [
+const benefitsOfXPayItems = [
   {
     title: "Increased Convenience and Choice",
     description: "A wider range of secure payment options",
@@ -58,7 +58,7 @@ export default function BenefitsSection() {
         />
 
         {/* Floating payment icons */}
-        {benefitsOfXpayItems.map((_, i) => (
+        {benefitsOfXPayItems.map((_, i) => (
           <motion.div
             key={i}
             className="absolute flex items-center justify-center w-12 h-12 text-white"
@@ -82,19 +82,19 @@ export default function BenefitsSection() {
       <div className="container relative z-10 px-6 mx-auto text-center max-w-7xl">
         {/* Heading */}
         <p className="text-sm font-semibold tracking-widest text-[#CC9900] uppercase">
-          Benefits of X Pay
+          Benefits of X-Pay
         </p>
         <h3 className="mt-2 text-3xl font-extrabold text-black sm:text-4xl">
-          Why Our Customers Love X Pay
+          Why Our Customers Love X-Pay
         </h3>
         <p className="max-w-2xl mx-auto mt-4 text-gray-700 sm:text-lg">
-          Discover how X Pay simplifies payments, expands market reach, and
+          Discover how X-Pay simplifies payments, expands market reach, and
           empowers businesses to grow seamlessly.
         </p>
 
         {/* Benefit cards */}
         <div className="grid gap-8 mt-12 sm:grid-cols-2 lg:grid-cols-4">
-          {benefitsOfXpayItems.map((item, i) => (
+          {benefitsOfXPayItems.map((item, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 40 }}

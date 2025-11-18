@@ -68,12 +68,6 @@ export const DeskNav: React.FC<DeskNavProps> = ({
                       Integrations
                     </Link>
                     <Link
-                      href="https://crm.smatpay.africa/knowledge-base"
-                      className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#FFC300] rounded-md transition"
-                    >
-                      Knowledge Base
-                    </Link>
-                    <Link
                       href="/resources/faqs"
                       className="block px-4 py-2.5 text-sm text-gray-700 hover:bg-gray-100 hover:text-[#FFC300] rounded-md transition"
                     >

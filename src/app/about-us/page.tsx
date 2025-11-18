@@ -10,8 +10,8 @@ import { useInView } from 'react-intersection-observer';
 
 // Partners
 const patnersLogos = [
-  { name: "SmatQr", logo: "/smat_qr_logo.svg" },
-  { name: "SmatProp", logo: "/smatprop_logo.svg" },
+  { name: "X-QR", logo: "/smat_qr_logo.svg" },
+  { name: "X-Prop", logo: "/smatprop_logo.svg" },
   { name: "AWS", logo: "/aws_logo.png" },
 ];
 
@@ -19,9 +19,9 @@ const patnersLogos = [
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "SmatPay",
-  "url": "https://smatpay.co.za/",
-  "logo": "https://smatpay.co.za/smatpay_logo.svg",
+  "name": "X-Pay",
+  "url": "https://x-pay.co.za/",
+  "logo": "https://x-pay.co.za/X-Pay-Logo.png",
   "contactPoint": [
     {
       "@type": "ContactPoint",
@@ -48,10 +48,10 @@ const organizationSchema = {
   "sameAs": [
     "#",
     "#",
-    "https://www.instagram.com/smat_pay",
-    "https://www.linkedin.com/company/smatpay-africa/"
+    "https://www.instagram.com/x_pay",
+    "https://www.linkedin.com/company/x-pay-africa/"
   ],
-  "description": "SmatPay is a secure and seamless payment gateway in South Africa that empowers businesses and individuals with innovative digital payment solutions. We are a product of Smatech Group.",
+  "description": "X-Pay is a secure and seamless payment gateway in South Africa that empowers businesses and individuals with innovative digital payment solutions. We are a product of Smatech Group (www.smatechgroup.com).",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Montague Office Park, Ground Floor, Main Block, Cnr Cedar Road & Cedar Boulevard, Broadacres",
@@ -121,24 +121,24 @@ export default function About() {
     { title: "Recurring Billing", desc: "Automate subscriptions and regular payments, perfect for services and memberships.", image: "/billing.jpg" },
     { title: "Fiscalized Invoicing", desc: "Stay compliant with SARS regulations with our automatically fiscalized invoicing system.", image: "/fiscal.jpg" },
     { title: "Developer APIs", desc: "Easily integrate our platform into your app or website using our comprehensive and well-documented APIs.", image: "/api.jpg" },
-    { title: "Value-Added Services", desc: "Earn additional revenue by selling digital services like airtime and ZESA directly from our platform.", image: "/vas.jpg" }
+    { title: "Value-Added Services", desc: "Earn additional revenue by selling digital services like airtime and Eskom directly from our platform.", image: "/vas.jpg" }
   ];
 
   return (
     <>
       <Head>
-        <title>About Us | SmatPay - Redefining Digital Payments in Zimbabwe</title>
+        <title>About Us | X-Pay - Redefining Digital Payments in South Africa</title>
         <meta
           name="description"
-          content="SmatPay is a secure and seamless payment gateway in Zimbabwe that empowers businesses and individuals with innovative digital payment solutions. We are a product of Smatech Group."
+          content="X-Pay is a secure and seamless payment gateway in South Africa that empowers businesses and individuals with innovative digital payment solutions. We are a product of Smatech Group (www.smatechgroup.com)."
         />
         {/* Open Graph (OG) meta tags for social media sharing */}
-        <meta property="og:title" content="About SmatPay: Our Mission and Values" />
-        <meta property="og:description" content="Discover the story behind SmatPay, our mission to redefine digital payments, and our commitment to empowering businesses in Zimbabwe." />
+        <meta property="og:title" content="About X-Pay: Our Mission and Values" />
+        <meta property="og:description" content="Discover the story behind X-Pay, our mission to redefine digital payments, and our commitment to empowering businesses in South Africa." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://smatpay.africa/about-us" />
-        <meta property="og:image" content="https://smatpay.africa/smatpay_logo.png" />
-        <link rel="canonical" href="https://smatpay.africa/about-us" />
+        <meta property="og:url" content="https://x-pay.africa/about-us" />
+        <meta property="og:image" content="https://x-pay.africa/X-Pay-Logo.png" />
+        <link rel="canonical" href="https://x-pay.africa/about-us" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
@@ -160,7 +160,7 @@ export default function About() {
           >
             <Image
               src="/smatpay - lady on laptop.jpg"
-              alt="About Us Hero"
+              alt="About Us Hero - SmatPay"
               fill
               className="object-cover"
               quality={100}
@@ -201,7 +201,7 @@ export default function About() {
             <motion.div variants={stagger} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.2 }}>
               <motion.h2 variants={fadeUp} className="mb-6 text-3xl font-bold text-[#CC9900] md:text-2xl">Who We Are</motion.h2>
               <motion.p variants={fadeUp} className="mb-4 text-gray-700">
-                SmatPay is more than just a payment gateway; we are the secure bridge between merchants and customers, redefining digital commerce in South Africa. As a proud product of the <strong>Smatech Group</strong>, we are committed to building a robust and flexible payment ecosystem designed for the future of Africa's digital economy.
+                X-Pay is more than just a payment gateway; we are the secure bridge between merchants and customers, redefining digital commerce in South Africa. As a proud product of the <strong><a href="https://www.smatechgroup.com" target="_blank" rel="noopener noreferrer" className="text-black hover:text-[#CC9900]">Smatech Group</a></strong>, we are committed to building a robust and flexible payment ecosystem designed for the future of Africa's digital economy.
               </motion.p>
               <motion.p variants={fadeUp} className="mb-4 text-gray-700">
                 Our mission is to tackle the key payment challenges faced by businesses—such as transaction failures, high fees, and limited options—through a modern, fully integrated platform. We empower businesses to grow while promoting financial inclusion for all.
@@ -330,7 +330,7 @@ export default function About() {
           <div className="container px-6 mx-auto text-center max-w-7xl">
             <h2 className="text-2xl font-bold text-[#CC9900] sm:text-3xl">Our Trusted Partners</h2>
             <p className="max-w-3xl mx-auto mt-3 text-gray-600">
-              Trusted by industry leaders worldwide, SmatPay partners with the world's leading financial institutions and technology providers to deliver seamless payment experiences.
+              Trusted by industry leaders worldwide, X-Pay partners with the world's leading financial institutions and technology providers to deliver seamless payment experiences.
             </p>
             <div className="mt-10 overflow-hidden border border-gray-200 rounded-2xl bg-[#FFC300]/10">
               <div className="flex animate-[marquee_30s_linear_infinite] gap-12 p-6 [--gap:3rem] hover:[animation-play-state:paused]">
@@ -354,7 +354,7 @@ export default function About() {
             <div className="relative z-10 max-w-4xl px-6 py-20 mx-auto text-center">
               <p className="text-base font-semibold">Ready to get started?</p>
               <h3 className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl">
-                Experience the SmatPay difference for yourself!
+                Experience the X-Pay difference for yourself!
               </h3>
               <Link
                 href="https://merchant-dev.x-pay.co.za"

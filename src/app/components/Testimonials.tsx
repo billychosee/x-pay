@@ -1,10 +1,8 @@
-import Image from "next/image";
 import React from "react";
+import { FaUserCircle } from "react-icons/fa";
 
 // Define a type for a single testimonial object for TypeScript safety
 type Testimonial = {
-  logoSrc: string;
-  logoAlt: string;
   name: string;
   title: string;
   quote: string;
@@ -29,7 +27,7 @@ const Testimonials = ({ title, subtitle, testimonials }: TestimonialsProps) => {
           {subtitle}
         </h2>
         <p className="mt-4 text-lg text-gray-500">
-          See what our clients have to say about SmatPay
+          See what our clients have to say about X-Pay
         </p>
       </div>
 
@@ -41,13 +39,7 @@ const Testimonials = ({ title, subtitle, testimonials }: TestimonialsProps) => {
             className="flex flex-col p-8 bg-white border border-gray-100 rounded-lg shadow-lg"
           >
             <div className="mb-5">
-              <Image
-                src={testimonial.logoSrc}
-                alt={testimonial.logoAlt}
-                width={120}
-                height={32}
-                className="w-auto h-8"
-              />
+              <FaUserCircle className="w-16 h-16 text-[#CC9900]" />
             </div>
             <div className="mb-5">
               <p className="font-bold text-gray-900">{testimonial.name}</p>

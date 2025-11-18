@@ -28,7 +28,7 @@ export async function POST(req: Request) {
         user: SMTP_CONFIG.USER,
         pass: SMTP_CONFIG.PASS,
       },
-      
+       
     });
 
     // Define email options

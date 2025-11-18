@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           <a href="/" className="flex items-center gap-2">
             <img
               src="/X-Pay-Logo.png"
-              alt="X Pay logo"
+              alt="X-Pay logo"
               width={96}
               height={96}
               className="rounded"

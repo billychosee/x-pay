@@ -18,7 +18,7 @@ const whyChooseUsItems: Item[] = [
   { title: "Security", description: "Utilizes International and advanced PCI standard encryption protocols to protect sensitive data during transactions.", icon: FaLock },
   { title: "Fraud Detection", description: "Implements robust fraud detection and prevention mechanisms to safeguard against fraudulent activities.", icon: FaExclamationCircle },
   { title: "Multiple Payment Methods", description: "Supports a wide range of payment options such as credit/debit cards, digital wallets, and local payment methods.", icon: FaCreditCard },
-  { title: "No 'system down' frustrations", description: "SMATPAY is built for scalability and uptime, ensuring that customers can always complete their purchases.", icon: FaBriefcase },
+  { title: "No 'system down' frustrations", description: "X-PAY is built for scalability and uptime, ensuring that customers can always complete their purchases.", icon: FaBriefcase },
 ];
 
 interface CarouselProps {

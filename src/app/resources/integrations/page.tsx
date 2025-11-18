@@ -22,10 +22,10 @@ import { FaShop, FaMobile, FaLaptopCode } from 'react-icons/fa6';
 const integrationsSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebPage',
-  name: 'X Pay Integrations',
+  name: 'X-Pay Integrations',
   description:
-    "Explore the various platforms and services that integrate seamlessly with X Pay's payment gateway. Connect with popular e-commerce platforms and APIs.",
-  url: 'https://xpay.co.za/integrations',
+    "Explore the various platforms and services that integrate seamlessly with X-Pay's payment gateway. Connect with popular e-commerce platforms and APIs.",
+  url: 'https://x-pay.co.za/integrations',
 };
 
 const KeyIntegrationComponents = [
@@ -46,8 +46,8 @@ export default function Integrations() {
   return (
     <>
       <Head>
-        <title>Integrations | X Pay</title>
-        <meta name="description" content="Explore the various platforms and services that integrate seamlessly with X Pay's payment gateway. Connect with popular e-commerce platforms and APIs." />
+        <title>Integrations | X-Pay</title>
+        <meta name="description" content="Explore the various platforms and services that integrate seamlessly with X-Pay's payment gateway. Connect with popular e-commerce platforms and APIs." />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(integrationsSchema) }} />
       </Head>
 
@@ -63,7 +63,7 @@ export default function Integrations() {
           <motion.div className="relative z-10 max-w-2xl px-4" variants={fadeInUp} initial="hidden" animate="visible">
             <h1 className="mb-6 text-4xl font-bold leading-tight sm:text-5xl md:text-4xl text-[#D4AF37]">Integrations</h1>
             <p className="mb-6 text-lg font-light sm:text-xl md:text-base">Integrating a payment gateway into your existing systems is crucial for a smooth and secure customer checkout experience.</p>
-            <a href="http://doc.xpay.africa/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 font-semibold text-white transition bg-gradient-to-r from-[#D4AF37] to-[#B8941F] rounded-full hover:from-[#B8941F] hover:to-[#D4AF37]">
+            <a href="http://docs.x-pay.co.za/" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 font-semibold text-white transition bg-gradient-to-r from-[#D4AF37] to-[#B8941F] rounded-full hover:from-[#B8941F] hover:to-[#D4AF37]">
               Explore API Docs
             </a>
           </motion.div>
@@ -86,7 +86,7 @@ export default function Integrations() {
       className="flex flex-col justify-center"
     >
       <h2 className="mb-6 text-4xl font-bold text-[#D4AF37]">
-        Why Integrate with X Pay?
+        Why Integrate with X-Pay?
       </h2>
       <p className="mb-6 text-lg leading-relaxed text-gray-600">
         Seamlessly integrate robust payment processing into your existing systems and applications. Our payment gateway solutions offer flexible integration options to align with your business needs. Whether you operate an e-commerce platform, mobile app, or point-of-sale system, we provide the tools and expertise to ensure a smooth transition.
@@ -194,8 +194,8 @@ export default function Integrations() {
 
             <motion.div initial={{ opacity: 0, x: 40 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.8, ease: 'easeOut' }} viewport={{ once: true }} className="flex flex-col items-center justify-center text-center md:items-start md:text-left">
               <h2 className="mb-4 text-3xl font-bold text-gray-800">Ready to enhance your payment processing?</h2>
-              <p className="mb-6 text-gray-600">Streamline payments, secure transactions, and boost conversions with X Pay integration.</p>
-              <a href="http://doc.xpay.africa/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 font-semibold text-white transition bg-gradient-to-r from-[#D4AF37] to-[#B8941F] rounded-full hover:from-[#B8941F] hover:to-[#D4AF37]">
+              <p className="mb-6 text-gray-600">Streamline payments, secure transactions, and boost conversions with X-Pay integration.</p>
+              <a href="http://docs.x-pay.co.za/" target="_blank" rel="noopener noreferrer" className="px-8 py-3 font-semibold text-white transition bg-gradient-to-r from-[#D4AF37] to-[#B8941F] rounded-full hover:from-[#B8941F] hover:to-[#D4AF37]">
                 See API Documentation
               </a>
             </motion.div>

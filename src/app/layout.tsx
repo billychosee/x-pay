@@ -13,7 +13,7 @@ const vietnamPro = Be_Vietnam_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "X Pay - Redefining Payment Excellence",
+  title: "X-Pay - Redefining Payment Excellence",
   description: "Empowering Businesses with Next-Gen Payment Solutions",
 };
 

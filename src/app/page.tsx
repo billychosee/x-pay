@@ -100,7 +100,7 @@ const whyChooseUsItems = [
   {
     title: "No \"system down\" frustrations",
     description:
-      "SMATPAY is built for scalability and uptime, ensuring that customers can always complete their purchases.",
+      "X-PAY is built for scalability and uptime, ensuring that customers can always complete their purchases.",
     icon: FaBriefcase,
   },
 ];
@@ -167,28 +167,22 @@ const benefitsOfSmatpayItems = [
 
 const testimonialData = [
   {
-    logoSrc: "/smat_tutor_logo.png",
-    logoAlt: "Smatutor Logo",
     name: "Tatenda Moyo",
     title: "CEO",
     quote:
-      "Fast, secure, and hassle-free payments with X Pay. It has made learning accessible and convenient",
+      "Fast, secure, and hassle-free payments with X-Pay. It has made learning accessible and convenient",
   },
   {
-    logoSrc: "/njere_logo.png",
-    logoAlt: "NJERE Logo",
     name: "Ruth Madzikanda",
     title: "CEO",
     quote:
-      "Our school's transition to X Pay has been a game-changer. Fee collection is now a breeze, and we have more time to focus on what truly matters: our students.",
+      "Our school's transition to X-Pay has been a game-changer. Fee collection is now a breeze, and we have more time to focus on what truly matters: our students.",
   },
   {
-    logoSrc: "/smatpay_logo.png",
-    logoAlt: "Smat Logo",
     name: "Anesu Mbano",
     title: "Headstore Manager",
     quote:
-      "We were looking for a payment gateway that could keep up with the demands of our growing access control business. X Pay exceeded our expectations.",
+      "We were looking for a payment gateway that could keep up with the demands of our growing access control business. X-Pay exceeded our expectations.",
   },
 ];
 
@@ -206,10 +200,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>X Pay | Secure & Seamless Payment Gateway for Zimbabwe & Africa</title>
+        <title>X-Pay | Secure & Seamless Payment Gateway for Zimbabwe & Africa</title>
         <meta
           name="description"
-          content="X Pay is the leading payment gateway in Zimbabwe, offering seamless integration for e-commerce and businesses to accept mobile money, Zimswitch, Visa, and Mastercard payments securely."
+          content="X-Pay is the leading payment gateway in Zimbabwe, offering seamless integration for e-commerce and businesses to accept mobile money, Zimswitch, Visa, and Mastercard payments securely."
         />
       </Head>
 
@@ -337,7 +331,7 @@ export default function Home() {
                 <div className="relative w-full max-w-xl p-4 mx-auto border shadow-2xl rounded-3xl border-white/40 bg-white/60 backdrop-blur">
                   <Image
                     src="/smatpay-hero-art.png"
-                    alt="X Pay interface on mobile and desktop showing easy payments"
+                    alt="SmatPay payment solutions hero artwork"
                     width={1000}
                     height={700}
                     className="object-contain w-full h-auto rounded-2xl"
@@ -545,7 +539,7 @@ export default function Home() {
           },
         }}
       >
-        {`X Pay is a sophisticated payment gateway that serves as a pivotal intermediary between merchants and customers during online transactions. As a payment gateway, X Pay facilitates a secure and efficient transfer of funds from customers to merchants, enabling seamless transactions across various digital platforms, from websites to mobile apps.`.split(' ').map((word, i) => (
+        {`X-Pay is a sophisticated payment gateway that serves as a pivotal intermediary between merchants and customers during online transactions. As a payment gateway, X-Pay facilitates a secure and efficient transfer of funds from customers to merchants, enabling seamless transactions across various digital platforms, from websites to mobile apps.`.split(' ').map((word, i) => (
           <motion.span
             key={i}
             variants={{
@@ -615,7 +609,7 @@ export default function Home() {
               variants={fadeUp}
               className="max-w-3xl mx-auto mt-3 text-gray-600"
             >
-              Easily integrate Smatpay into your online store. Our intuitive interface and detailed documentation guide you through the process, ensuring a smooth setup
+              Easily integrate X-Pay into your online store. Our intuitive interface and detailed documentation guide you through the process, ensuring a smooth setup
             </motion.p>
 
             <motion.div
@@ -644,7 +638,7 @@ export default function Home() {
           </motion.div>
         </section>
 
-        {/* WHY SMATPAY */}
+        {/* WHY X-PAY */}
         <section id="why" className="relative py-20">
           <motion.div
             initial="hidden"
@@ -657,7 +651,7 @@ export default function Home() {
               variants={fadeUp}
               className="text-xs font-bold tracking-widest text-[#CC9900]"
             >
-              WHY SMATPAY
+              WHY X-PAY
             </motion.p>
             <motion.h3
               variants={fadeUp}
@@ -725,7 +719,7 @@ export default function Home() {
         variants={fadeUp}
         className="mt-2 text-3xl font-extrabold leading-tight sm:text-4xl"
       >
-        Experience the X Pay difference for yourself!
+        Experience the X-Pay difference for yourself!
       </motion.h3>
       
       {/* The new "Get Started" button has been added here */}
