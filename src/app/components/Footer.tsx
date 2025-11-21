@@ -12,7 +12,6 @@ export default function Footer() {
     <footer className="px-5 py-12 text-white bg-[#333333] md:px-24">
       <div className="container mx-auto">
         {/* Top Section: Logo and Social Media */}
-        {/* Updated border color for contrast on the new gradient */}
         <div className="flex flex-col items-center justify-between pb-8 mb-8 border-b border-gray-600 md:flex-row">
           <div className="mb-6 md:mb-0">
             <Link href="/">
@@ -72,7 +71,6 @@ export default function Footer() {
             </div>
           </div>
 
-
           {/* Quick Links */}
           <div>
             <h3 className="mb-4 text-lg font-semibold">Quick Links</h3>
@@ -114,9 +112,24 @@ export default function Footer() {
             <div className="mb-4">
               <p className="text-sm font-medium text-white">Phone</p>
               <ul className="ml-2 space-y-1 text-sm text-gray-300">
-                <li>JHB: <a href="tel:+27103925031" className="hover:underline">+27 10 392 5031</a></li>
-                <li>CPT: <a href="tel:+27213955031" className="hover:underline">+27 21 395 5031</a></li>
-                <li>PTA: <a href="tel:+27122925990" className="hover:underline">+27 12 292 5990</a></li>
+                <li>
+                  JHB:{" "}
+                  <a href="tel:+27103925031" className="hover:underline">
+                    +27 10 392 5031
+                  </a>
+                </li>
+                <li>
+                  CPT:{" "}
+                  <a href="tel:+27213955031" className="hover:underline">
+                    +27 21 395 5031
+                  </a>
+                </li>
+                <li>
+                  PTA:{" "}
+                  <a href="tel:+27122925990" className="hover:underline">
+                    +27 12 292 5990
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -125,13 +138,30 @@ export default function Footer() {
               <p className="text-sm font-medium text-white">Email</p>
               <ul className="ml-2 space-y-1 text-sm text-gray-300">
                 {/* Updated email addresses */}
-                <li><a href="mailto:info@x-pay.co.za" className="hover:underline">info@x-pay.co.za</a></li>
-                <li><a href="mailto:support@x-pay.co.za" className="hover:underline">support@x-pay.co.za</a></li>
-                <li><a href="mailto:sales@x-pay.co.za" className="hover:underline">sales@x-pay.co.za</a></li>
+                <li>
+                  <a href="mailto:info@x-pay.co.za" className="hover:underline">
+                    info@x-pay.co.za
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:support@x-pay.co.za"
+                    className="hover:underline"
+                  >
+                    support@x-pay.co.za
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:sales@x-pay.co.za"
+                    className="hover:underline"
+                  >
+                    sales@x-pay.co.za
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
-
 
           {/* About X-Pay */}
           <div>
@@ -148,7 +178,7 @@ export default function Footer() {
         {/* Updated border color for contrast on the new gradient */}
         <div className="flex flex-col items-start justify-between pt-8 text-sm text-white border-t border-gray-600 md:flex-row md:items-center">
           <p className="mb-4 md:mb-0">
-            Copyright © {currentYear}, All rights reserved. Powered by{" "}
+            Copyright © {currentYear}, All rights reserved. Powered by
             <a
               href="https://www.smatechgroup.com"
               target="_blank"
@@ -159,22 +189,31 @@ export default function Footer() {
             </a>
           </p>
           <div className="flex flex-col space-y-2 md:flex-row md:space-y-0 md:space-x-6">
-            <Link href="#" className="transition duration-300 ease-in-out hover:text-white">
+            <Link
+              href="#"
+              className="transition duration-300 ease-in-out hover:text-white"
+            >
               Terms and Conditions
             </Link>
-            <Link href="#" className="transition duration-300 ease-in-out hover:text-white">
+            <Link
+              href="#"
+              className="transition duration-300 ease-in-out hover:text-white"
+            >
               Privacy Policy
             </Link>
-            <Link href="#" className="transition duration-300 ease-in-out hover:text-white">
+            <Link
+              href="#"
+              className="transition duration-300 ease-in-out hover:text-white"
+            >
               Acceptable Use Policy
             </Link>
           </div>
         </div>
       </div>
 
-      {/* WhatsApp Floating Icon - Kept green as it's a standard branding color */}
+      {/* WhatsApp Floating Icon */}
       <Link
-        href="https://wa.me/+263789566428"
+        href="https://wa.me/+27820881627"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed z-50 p-4 text-white transition duration-300 ease-in-out bg-green-500 rounded-full shadow-lg bottom-6 right-6 hover:bg-green-600"
